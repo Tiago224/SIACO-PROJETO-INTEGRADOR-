@@ -9,12 +9,12 @@ package view;
  *
  * @author Tiago
  */
-public class TelaLogin extends javax.swing.JFrame {
+public class TelaAcesso extends javax.swing.JFrame {
 
     /**
-     * Creates new form TelaLogin
+     * Creates new form TelaAcesso
      */
-    public TelaLogin() {
+    public TelaAcesso() {
         initComponents();
     }
 
@@ -30,15 +30,13 @@ public class TelaLogin extends javax.swing.JFrame {
         Barra = new javax.swing.JLabel();
         Login = new javax.swing.JLabel();
         bcadastrarnovo = new javax.swing.JButton();
-        bentrar1 = new javax.swing.JButton();
-        EntraLogin = new javax.swing.JTextField();
-        brecuperarsenha = new javax.swing.JButton();
+        bFonecedor2 = new javax.swing.JButton();
+        bComprador1 = new javax.swing.JButton();
         barraLogin = new javax.swing.JLabel();
         Fundo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("SIACO v.1");
-        setResizable(false);
+        setTitle("Siaco v.1");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Barra.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Agrupar 5.png"))); // NOI18N
@@ -60,39 +58,29 @@ public class TelaLogin extends javax.swing.JFrame {
         });
         getContentPane().add(bcadastrarnovo, new org.netbeans.lib.awtextra.AbsoluteConstraints(1650, 70, 200, 50));
 
-        bentrar1.setBackground(new java.awt.Color(0, 0, 0));
-        bentrar1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        bentrar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Agrupar 1.png"))); // NOI18N
-        bentrar1.setAutoscrolls(true);
-        bentrar1.setBorderPainted(false);
-        bentrar1.addActionListener(new java.awt.event.ActionListener() {
+        bFonecedor2.setBackground(new java.awt.Color(0, 0, 0));
+        bFonecedor2.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        bFonecedor2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Agrupar 1.png"))); // NOI18N
+        bFonecedor2.setAutoscrolls(true);
+        bFonecedor2.setBorderPainted(false);
+        bFonecedor2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bentrar1ActionPerformed(evt);
+                bFonecedor2ActionPerformed(evt);
             }
         });
-        getContentPane().add(bentrar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 730, 140, 50));
+        getContentPane().add(bFonecedor2, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 740, 140, 50));
 
-        EntraLogin.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
-        EntraLogin.setForeground(new java.awt.Color(255, 204, 204));
-        EntraLogin.setText("CNPJ/CPF");
-        EntraLogin.setToolTipText("");
-        EntraLogin.setSelectedTextColor(new java.awt.Color(255, 204, 204));
-        EntraLogin.addActionListener(new java.awt.event.ActionListener() {
+        bComprador1.setBackground(new java.awt.Color(0, 0, 0));
+        bComprador1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        bComprador1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Agrupar 1.png"))); // NOI18N
+        bComprador1.setAutoscrolls(true);
+        bComprador1.setBorderPainted(false);
+        bComprador1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                EntraLoginActionPerformed(evt);
+                bComprador1ActionPerformed(evt);
             }
         });
-        getContentPane().add(EntraLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 730, 400, 50));
-
-        brecuperarsenha.setBackground(new java.awt.Color(0, 0, 0));
-        brecuperarsenha.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        brecuperarsenha.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Recuperar senha.png"))); // NOI18N
-        brecuperarsenha.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                brecuperarsenhaActionPerformed(evt);
-            }
-        });
-        getContentPane().add(brecuperarsenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 790, 260, 40));
+        getContentPane().add(bComprador1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 740, 140, 50));
 
         barraLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Retângulo 2.png"))); // NOI18N
         getContentPane().add(barraLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 720, -1, -1));
@@ -100,25 +88,21 @@ public class TelaLogin extends javax.swing.JFrame {
         Fundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/background login.png"))); // NOI18N
         getContentPane().add(Fundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, -1));
 
-        setSize(new java.awt.Dimension(1968, 1440));
+        pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void EntraLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EntraLoginActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_EntraLoginActionPerformed
-
-    private void brecuperarsenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_brecuperarsenhaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_brecuperarsenhaActionPerformed
-
-    private void bentrar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bentrar1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_bentrar1ActionPerformed
 
     private void bcadastrarnovoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcadastrarnovoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_bcadastrarnovoActionPerformed
+
+    private void bComprador1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bComprador1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bComprador1ActionPerformed
+
+    private void bFonecedor2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bFonecedor2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bFonecedor2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -137,32 +121,31 @@ public class TelaLogin extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TelaLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaAcesso.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TelaLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaAcesso.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TelaLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaAcesso.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TelaLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaAcesso.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new TelaLogin().setVisible(true);
+                new TelaAcesso().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Barra;
-    private javax.swing.JTextField EntraLogin;
     private javax.swing.JLabel Fundo;
     private javax.swing.JLabel Login;
+    private javax.swing.JButton bComprador1;
+    private javax.swing.JButton bFonecedor2;
     private javax.swing.JLabel barraLogin;
     private javax.swing.JButton bcadastrarnovo;
-    private javax.swing.JButton bentrar1;
-    private javax.swing.JButton brecuperarsenha;
     // End of variables declaration//GEN-END:variables
 }
