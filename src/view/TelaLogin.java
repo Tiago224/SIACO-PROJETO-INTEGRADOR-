@@ -101,7 +101,7 @@ public class TelaLogin extends javax.swing.JFrame {
         Fundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/background login.png"))); // NOI18N
         getContentPane().add(Fundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, -1));
 
-        setSize(new java.awt.Dimension(1940, 1407));
+        setSize(new java.awt.Dimension(1958, 1407));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 

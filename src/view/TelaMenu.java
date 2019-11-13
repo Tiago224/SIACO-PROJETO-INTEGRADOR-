@@ -27,9 +27,16 @@ public class TelaMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTabbedPane1 = new javax.swing.JTabbedPane();
-        jLabel1 = new javax.swing.JLabel();
+        LOgo = new javax.swing.JLabel();
+        menulistadeprodutos = new javax.swing.JButton();
+        menuajuda = new javax.swing.JButton();
+        bemvindos = new javax.swing.JButton();
+        menucotações = new javax.swing.JButton();
+        menurelatorio = new javax.swing.JButton();
+        menufornecedores = new javax.swing.JButton();
+        painelMenu = new javax.swing.JLabel();
         background = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         barramenu = new javax.swing.JMenuBar();
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
@@ -41,13 +48,47 @@ public class TelaMenu extends javax.swing.JFrame {
         setTitle("Boas Vindas");
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 350, 1060));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Logo Siaco.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        LOgo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Logo Siaco.png"))); // NOI18N
+        getContentPane().add(LOgo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        menulistadeprodutos.setBackground(new java.awt.Color(0, 0, 0));
+        menulistadeprodutos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Grupo 70.png"))); // NOI18N
+        getContentPane().add(menulistadeprodutos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 350, 90));
+
+        menuajuda.setBackground(new java.awt.Color(0, 0, 0));
+        menuajuda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Grupo 75.png"))); // NOI18N
+        getContentPane().add(menuajuda, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 610, 350, 90));
+
+        bemvindos.setBackground(new java.awt.Color(0, 0, 0));
+        bemvindos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Grupo 12.png"))); // NOI18N
+        bemvindos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bemvindosActionPerformed(evt);
+            }
+        });
+        getContentPane().add(bemvindos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 160, 350, 90));
+
+        menucotações.setBackground(new java.awt.Color(0, 0, 0));
+        menucotações.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Grupo 14.png"))); // NOI18N
+        getContentPane().add(menucotações, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 340, 350, 90));
+
+        menurelatorio.setBackground(new java.awt.Color(0, 0, 0));
+        menurelatorio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Grupo 15.png"))); // NOI18N
+        getContentPane().add(menurelatorio, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 430, 350, 90));
+
+        menufornecedores.setBackground(new java.awt.Color(0, 0, 0));
+        menufornecedores.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Grupo 74.png"))); // NOI18N
+        getContentPane().add(menufornecedores, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 520, 350, 90));
+
+        painelMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Retângulo 7.png"))); // NOI18N
+        getContentPane().add(painelMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, -1, 1050));
 
         background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Background geral.png"))); // NOI18N
         getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, 0, 1590, 1190));
+
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 60, -1, -1));
 
         barramenu.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
 
@@ -76,6 +117,10 @@ public class TelaMenu extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void bemvindosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bemvindosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bemvindosActionPerformed
 
     /**
      * @param args the command line arguments
@@ -113,14 +158,21 @@ public class TelaMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel LOgo;
     private javax.swing.JLabel background;
     private javax.swing.JMenuBar barramenu;
+    private javax.swing.JButton bemvindos;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu7;
-    private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JButton menuajuda;
+    private javax.swing.JButton menucotações;
+    private javax.swing.JButton menufornecedores;
+    private javax.swing.JButton menulistadeprodutos;
+    private javax.swing.JButton menurelatorio;
+    private javax.swing.JLabel painelMenu;
     // End of variables declaration//GEN-END:variables
 }
