@@ -34,9 +34,10 @@ public class TelaMenu extends javax.swing.JFrame {
         menucotações = new javax.swing.JButton();
         menurelatorio = new javax.swing.JButton();
         menufornecedores = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         painelMenu = new javax.swing.JLabel();
         background = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         barramenu = new javax.swing.JMenuBar();
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
@@ -81,14 +82,18 @@ public class TelaMenu extends javax.swing.JFrame {
         menufornecedores.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Grupo 74.png"))); // NOI18N
         getContentPane().add(menufornecedores, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 520, 350, 90));
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Retângulo 8.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1190, 90, -1, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Retângulo 9.png"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 910, 1540, 150));
+
         painelMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Retângulo 7.png"))); // NOI18N
         getContentPane().add(painelMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, -1, 1050));
 
         background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Background geral.png"))); // NOI18N
         getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, 0, 1590, 1190));
-
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 60, -1, -1));
 
         barramenu.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
 
@@ -163,6 +168,7 @@ public class TelaMenu extends javax.swing.JFrame {
     private javax.swing.JMenuBar barramenu;
     private javax.swing.JButton bemvindos;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
