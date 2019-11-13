@@ -9,12 +9,12 @@ package view;
  *
  * @author Tiago
  */
-public class TelaMenu extends javax.swing.JFrame {
+public class AcessoSenha extends javax.swing.JFrame {
 
     /**
-     * Creates new form TelaMenu
+     * Creates new form AcessoSenha
      */
-    public TelaMenu() {
+    public AcessoSenha() {
         initComponents();
     }
 
@@ -37,17 +37,17 @@ public class TelaMenu extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(189, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(871, 871, 871)
                 .addComponent(jLabel1)
-                .addGap(170, 170, 170))
+                .addContainerGap(1109, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(114, 114, 114)
+                .addGap(684, 684, 684)
                 .addComponent(jLabel1)
-                .addContainerGap(170, Short.MAX_VALUE))
+                .addContainerGap(878, Short.MAX_VALUE))
         );
 
         pack();
@@ -70,20 +70,20 @@ public class TelaMenu extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TelaMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AcessoSenha.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TelaMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AcessoSenha.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TelaMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AcessoSenha.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TelaMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AcessoSenha.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new TelaMenu().setVisible(true);
+                new AcessoSenha().setVisible(true);
             }
         });
     }

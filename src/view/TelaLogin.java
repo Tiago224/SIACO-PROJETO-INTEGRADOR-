@@ -31,7 +31,7 @@ public class TelaLogin extends javax.swing.JFrame {
         Login = new javax.swing.JLabel();
         bcadastrarnovo = new javax.swing.JButton();
         bentrar1 = new javax.swing.JButton();
-        EntraLogin = new javax.swing.JTextField();
+        cpf = new javax.swing.JFormattedTextField();
         brecuperarsenha = new javax.swing.JButton();
         barraLogin = new javax.swing.JLabel();
         Fundo = new javax.swing.JLabel();
@@ -72,17 +72,18 @@ public class TelaLogin extends javax.swing.JFrame {
         });
         getContentPane().add(bentrar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 730, 140, 50));
 
-        EntraLogin.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
-        EntraLogin.setForeground(new java.awt.Color(255, 204, 204));
-        EntraLogin.setText("CNPJ/CPF");
-        EntraLogin.setToolTipText("");
-        EntraLogin.setSelectedTextColor(new java.awt.Color(255, 204, 204));
-        EntraLogin.addActionListener(new java.awt.event.ActionListener() {
+        try {
+            cpf.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("###.###.###-##")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+        cpf.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        cpf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                EntraLoginActionPerformed(evt);
+                cpfActionPerformed(evt);
             }
         });
-        getContentPane().add(EntraLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 730, 400, 50));
+        getContentPane().add(cpf, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 730, 380, 50));
 
         brecuperarsenha.setBackground(new java.awt.Color(0, 0, 0));
         brecuperarsenha.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
@@ -104,10 +105,6 @@ public class TelaLogin extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void EntraLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EntraLoginActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_EntraLoginActionPerformed
-
     private void brecuperarsenhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_brecuperarsenhaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_brecuperarsenhaActionPerformed
@@ -119,6 +116,10 @@ public class TelaLogin extends javax.swing.JFrame {
     private void bcadastrarnovoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcadastrarnovoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_bcadastrarnovoActionPerformed
+
+    private void cpfActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cpfActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cpfActionPerformed
 
     /**
      * @param args the command line arguments
@@ -157,12 +158,12 @@ public class TelaLogin extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Barra;
-    private javax.swing.JTextField EntraLogin;
     private javax.swing.JLabel Fundo;
     private javax.swing.JLabel Login;
     private javax.swing.JLabel barraLogin;
     private javax.swing.JButton bcadastrarnovo;
     private javax.swing.JButton bentrar1;
     private javax.swing.JButton brecuperarsenha;
+    private javax.swing.JFormattedTextField cpf;
     // End of variables declaration//GEN-END:variables
 }

@@ -85,7 +85,7 @@
           <Font name="Dialog" size="24" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imagens/login/Agrupar 1.png"/>
+          <Image iconType="3" name="/imagens/acesso/Grupo 66.png"/>
         </Property>
         <Property name="autoscrolls" type="boolean" value="true"/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -95,7 +95,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="840" y="740" width="140" height="50"/>
+          <AbsoluteConstraints x="810" y="742" width="170" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -108,7 +108,7 @@
           <Font name="Dialog" size="24" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imagens/login/Agrupar 1.png"/>
+          <Image iconType="3" name="/imagens/acesso/Grupo 67.png"/>
         </Property>
         <Property name="autoscrolls" type="boolean" value="true"/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -118,7 +118,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="1040" y="740" width="140" height="50"/>
+          <AbsoluteConstraints x="990" y="740" width="160" height="60"/>
         </Constraint>
       </Constraints>
     </Component>

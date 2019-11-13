@@ -60,7 +60,7 @@ public class TelaAcesso extends javax.swing.JFrame {
 
         bFonecedor2.setBackground(new java.awt.Color(0, 0, 0));
         bFonecedor2.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        bFonecedor2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Agrupar 1.png"))); // NOI18N
+        bFonecedor2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/acesso/Grupo 66.png"))); // NOI18N
         bFonecedor2.setAutoscrolls(true);
         bFonecedor2.setBorderPainted(false);
         bFonecedor2.addActionListener(new java.awt.event.ActionListener() {
@@ -68,11 +68,11 @@ public class TelaAcesso extends javax.swing.JFrame {
                 bFonecedor2ActionPerformed(evt);
             }
         });
-        getContentPane().add(bFonecedor2, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 740, 140, 50));
+        getContentPane().add(bFonecedor2, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 742, 170, -1));
 
         bComprador1.setBackground(new java.awt.Color(0, 0, 0));
         bComprador1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        bComprador1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Agrupar 1.png"))); // NOI18N
+        bComprador1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/acesso/Grupo 67.png"))); // NOI18N
         bComprador1.setAutoscrolls(true);
         bComprador1.setBorderPainted(false);
         bComprador1.addActionListener(new java.awt.event.ActionListener() {
@@ -80,7 +80,7 @@ public class TelaAcesso extends javax.swing.JFrame {
                 bComprador1ActionPerformed(evt);
             }
         });
-        getContentPane().add(bComprador1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 740, 140, 50));
+        getContentPane().add(bComprador1, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 740, 160, 60));
 
         barraLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Retângulo 2.png"))); // NOI18N
         getContentPane().add(barraLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 720, -1, -1));
