@@ -28,15 +28,51 @@ public class TelaMenu extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
+        background = new javax.swing.JLabel();
+        barramenu = new javax.swing.JMenuBar();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
+        jMenu5 = new javax.swing.JMenu();
+        jMenu6 = new javax.swing.JMenu();
+        jMenu7 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Boas Vindas");
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Background geral.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, 0, 1590, 1190));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Logo Siaco.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/todas/boasvindas/Background geral.png"))); // NOI18N
+        getContentPane().add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, 0, 1590, 1190));
+
+        barramenu.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
+
+        jMenu3.setText("Arquivo");
+        jMenu3.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        barramenu.add(jMenu3);
+
+        jMenu4.setText("Exibir");
+        jMenu4.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        barramenu.add(jMenu4);
+
+        jMenu5.setText("Filtros ");
+        jMenu5.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        barramenu.add(jMenu5);
+
+        jMenu6.setText("Configurações");
+        jMenu6.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        barramenu.add(jMenu6);
+
+        jMenu7.setText("Ajuda");
+        jMenu7.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        barramenu.add(jMenu7);
+
+        setJMenuBar(barramenu);
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
@@ -75,6 +111,13 @@ public class TelaMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel background;
+    private javax.swing.JMenuBar barramenu;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu5;
+    private javax.swing.JMenu jMenu6;
+    private javax.swing.JMenu jMenu7;
     // End of variables declaration//GEN-END:variables
 }
