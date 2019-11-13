@@ -30,8 +30,8 @@ public class TelaAcesso extends javax.swing.JFrame {
         Barra = new javax.swing.JLabel();
         Login = new javax.swing.JLabel();
         bcadastrarnovo = new javax.swing.JButton();
-        bFonecedor2 = new javax.swing.JButton();
-        bComprador1 = new javax.swing.JButton();
+        bcomprador1 = new javax.swing.JButton();
+        bfornecedor2 = new javax.swing.JButton();
         barraLogin = new javax.swing.JLabel();
         Fundo = new javax.swing.JLabel();
 
@@ -58,29 +58,29 @@ public class TelaAcesso extends javax.swing.JFrame {
         });
         getContentPane().add(bcadastrarnovo, new org.netbeans.lib.awtextra.AbsoluteConstraints(1650, 70, 200, 50));
 
-        bFonecedor2.setBackground(new java.awt.Color(0, 0, 0));
-        bFonecedor2.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        bFonecedor2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/acesso/Grupo 66.png"))); // NOI18N
-        bFonecedor2.setAutoscrolls(true);
-        bFonecedor2.setBorderPainted(false);
-        bFonecedor2.addActionListener(new java.awt.event.ActionListener() {
+        bcomprador1.setBackground(new java.awt.Color(0, 0, 0));
+        bcomprador1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        bcomprador1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/acesso/Grupo 66.png"))); // NOI18N
+        bcomprador1.setAutoscrolls(true);
+        bcomprador1.setBorderPainted(false);
+        bcomprador1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bFonecedor2ActionPerformed(evt);
+                bcomprador1ActionPerformed(evt);
             }
         });
-        getContentPane().add(bFonecedor2, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 742, 170, -1));
+        getContentPane().add(bcomprador1, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 742, 170, -1));
 
-        bComprador1.setBackground(new java.awt.Color(0, 0, 0));
-        bComprador1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        bComprador1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/acesso/Grupo 67.png"))); // NOI18N
-        bComprador1.setAutoscrolls(true);
-        bComprador1.setBorderPainted(false);
-        bComprador1.addActionListener(new java.awt.event.ActionListener() {
+        bfornecedor2.setBackground(new java.awt.Color(0, 0, 0));
+        bfornecedor2.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        bfornecedor2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/acesso/Grupo 67.png"))); // NOI18N
+        bfornecedor2.setAutoscrolls(true);
+        bfornecedor2.setBorderPainted(false);
+        bfornecedor2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bComprador1ActionPerformed(evt);
+                bfornecedor2ActionPerformed(evt);
             }
         });
-        getContentPane().add(bComprador1, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 740, 160, 60));
+        getContentPane().add(bfornecedor2, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 740, 160, 60));
 
         barraLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/Retângulo 2.png"))); // NOI18N
         getContentPane().add(barraLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 720, -1, -1));
@@ -96,13 +96,13 @@ public class TelaAcesso extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_bcadastrarnovoActionPerformed
 
-    private void bComprador1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bComprador1ActionPerformed
+    private void bfornecedor2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bfornecedor2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_bComprador1ActionPerformed
+    }//GEN-LAST:event_bfornecedor2ActionPerformed
 
-    private void bFonecedor2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bFonecedor2ActionPerformed
+    private void bcomprador1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bcomprador1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_bFonecedor2ActionPerformed
+    }//GEN-LAST:event_bcomprador1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -143,9 +143,9 @@ public class TelaAcesso extends javax.swing.JFrame {
     private javax.swing.JLabel Barra;
     private javax.swing.JLabel Fundo;
     private javax.swing.JLabel Login;
-    private javax.swing.JButton bComprador1;
-    private javax.swing.JButton bFonecedor2;
     private javax.swing.JLabel barraLogin;
     private javax.swing.JButton bcadastrarnovo;
+    private javax.swing.JButton bcomprador1;
+    private javax.swing.JButton bfornecedor2;
     // End of variables declaration//GEN-END:variables
 }
