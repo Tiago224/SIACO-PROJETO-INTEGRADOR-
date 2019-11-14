@@ -88,7 +88,7 @@ public class TelaAcesso extends javax.swing.JFrame {
         Fundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/login/background login.png"))); // NOI18N
         getContentPane().add(Fundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, -1));
 
-        pack();
+        setSize(new java.awt.Dimension(1959, 1420));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
